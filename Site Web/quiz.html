@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site web personnel</title>
+    <link href="Style/style.css" rel="stylesheet">
+
+</head>
+<body>
+        <!--header-->
+    <header id="header">
+        <nav  id="navbar">
+            <ul>   
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">A propos </a></li>
+                <li><a href="parcours.html">Parcours Académique</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="stage.html">Stages</a></li>
+                <li><a href="evenements.html">Événements</a></li>
+                <li><a href="matieres.html">Matières</a></li>
+                <li><a href="Projets.html">Projets</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="temoignage.html">Témoignage IIT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--section-->
+    <section id="quiz" class="quiz">
+        <div class="container">
+            <div class="section-title">
+                <h2>Quiz</h2>
+            </div>
+        </div>
+        <div class="quiz-container">
+            <form id="quiz-form">
+                <div class="question">
+                    <p>1. que signifie HTML ?</p>
+                    <label><input type="radio" name="q1" value="PHyperText Machine Language"> HyperText Machine Language</label><br>
+                    <label><input type="radio" name="q1" value="HyperText Markup Language"> HyperText Markup Language</label><br>
+                    <label><input type="radio" name="q1" value=" Hyper Transfer Markup Language">  Hyper Transfer Markup Language</label>
+                </div>
+                <hr>
+                <div class="question">
+                    <p>2.  HTML est Langage de  ?</p>
+                    <label><input type="radio" name="q2" value="programmation"> programmation</label><br>
+                    <label><input type="radio" name="q2" value="style"> style</label><br>
+                    <label><input type="radio" name="q2" value=" balisage">balisage</label>
+                </div>
+
+                <hr>
+                <div class="question">
+                    <p>3. Quel langage est principalement utilisé pour interagir avec une base de données relationnelle   ?</p>
+                    <label><input type="radio" name="q3" value="html"> HTML</label><br>
+                    <label><input type="radio" name="q3" value="sql"> SQL</label><br>
+                    <label><input type="radio" name="q3" value="python"> Python</label>
+                </div>
+                <hr>
+           
+                <div class="question">
+                <p>4. Lequel de ces langages est un langage de style utilisé pour concevoir la mise en page d'une page web ?</p>
+                <label><input type="radio" name="q4" value="javascript"> JavaScript</label><br>
+                <label><input type="radio" name="q4" value="css"> CSS</label><br>
+                <label><input type="radio" name="q4" value="php"> PHP</label>
+            </div>
+            <hr>
+            <div class="question">
+                <p>5. Quel est l'élément correct pour insérer une image dans une page HTML ?</p>
+                <label><input type="radio" name="q5" value="img"> &lt;img&gt;</label><br>
+                <label><input type="radio" name="q5" value="image"> &lt;image&gt;</label><br>
+                <label><input type="radio" name="q5" value="picture"> &lt;picture&gt;</label>
+            </div>
+
+            
+            <hr>
+            <div class="question">
+                <p>6. Quelle règle CSS est utilisée pour appliquer un style uniquement si la largeur de l'écran est inférieure à 600 pixels ?</p>
+                <label><input type="radio" name="q6" value="@screen"> @screen</label><br>
+                <label><input type="radio" name="q6" value="@media"> @media</label><br>
+                <label><input type="radio" name="q6" value="@viewport"> @viewport</label>
+            </div>
+            <hr>
+            <div class="question">
+                <p>7. Quelle valeur de la propriété `position` permet de positionner un élément par rapport à son premier ancêtre positionné (autre que `static`) ?</p>
+                <label><input type="radio" name="q7" value="absolute"> absolute</label><br>
+                <label><input type="radio" name="q7" value="relative"> relative</label><br>
+                <label><input type="radio" name="q7" value="fixed"> fixed</label>
+            </div>
+
+            <hr>
+            <div class="question">
+                <p>8. Quelle est la différence entre `:hover` et `::after` en CSS ?</p>
+                <label><input type="radio" name="q8" value="hover-pseudo-element"> `:hover` est un pseudo-élément et `::after` est une pseudo-classe</label><br>
+                <label><input type="radio" name="q8" value="hover-pseudo-class"> `:hover` est une pseudo-classe et `::after` est un pseudo-élément</label><br>
+                <label><input type="radio" name="q8" value="both-pseudo-classes"> Les deux sont des pseudo-classes</label><br>
+            </div>
+            <hr>
+            <div class="question">
+                <p>9. Quelle propriété CSS permet de définir l'espacement entre les lignes dans un layout Grid ?</p>
+                <label><input type="radio" name="q9" value="gap"> gap</label><br>
+                <label><input type="radio" name="q9" value="grid-gap"> grid-gap</label><br>
+                <label><input type="radio" name="q9" value="spacing"> spacing</label>
+            </div>
+            
+            <hr>
+            <div class="question">
+                <p>10. Dans un conteneur Flexbox, quelle propriété CSS est utilisée pour aligner les éléments le long de l'axe principal ?</p>
+                <label><input type="radio" name="q10" value="align-items"> align-items</label><br>
+                <label><input type="radio" name="q10" value="justify-content"> justify-content</label><br>
+                <label><input type="radio" name="q10" value="flex-direction"> flex-direction</label>
+            </div>
+                    
+                <button type="button" id="submit-button">valider</button>
+            </form>
+  </section>
+    <!--footer-->
+
+<footer>
+<a href="">onsbenhassen7@gmail.com</a>  
+  </footer>
+<script src="script/script.js"> </script>
+</body>
+</html>
